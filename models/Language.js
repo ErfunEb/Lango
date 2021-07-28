@@ -6,7 +6,7 @@ const LanguageSchema = mongoose.Schema({
     required: true
   },
   localName: {
-    types: String,
+    type: String,
     required: true
   }
 });
